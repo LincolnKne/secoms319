@@ -1,0 +1,18 @@
+HTML Index file:
+  3 images and texts
+  NAV bar
+JS Index file:
+  maganes images and text to HTML
+JSON Data file:
+  contains all main data of images and text
+HTML Training page:
+  3 images and texts
+  NAV bar
+HTML Info file:
+  Name of the course: SE/ComS319 Construction of User Interfaces, Spring 2023
+  Date
+  Students: Complete name, ISU email
+  This page does not require images. However, including this page is expected to have
+  effort in creativity, design, style and colors. The text can be written directly in 
+  the HTML file. E.g., the information from students
+  is not required to be managed by Javascript
