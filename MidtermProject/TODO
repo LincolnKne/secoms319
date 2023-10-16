@@ -5,6 +5,10 @@ JS Index file:
   maganes images and text to HTML
 JSON Data file:
   contains all main data of images and text
+  The texts must be stored in a JSON file containing at least three properties or attributes
+  per image. The name of the JSON file must be data.json. That is, every image must
+  have three attributes, such as, productid, description and price. The addition of more
+  attributes per image is not penalized.
 HTML Training page:
   3 images and texts
   NAV bar
