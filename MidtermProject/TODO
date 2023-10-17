@@ -1,6 +1,8 @@
+* = complete
+
 HTML Index file:
   3 images and texts
-  NAV bar
+* NAV bar
   Generic profile page
 
 JS Index file:
@@ -16,7 +18,7 @@ JSON Data file:
 
 HTML Training page:
   3 images and texts
-  NAV bar
+* NAV bar
 
 HTML Info file:
   Name of the course: SE/ComS319 Construction of User Interfaces, Spring 2023
