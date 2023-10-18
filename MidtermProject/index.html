@@ -7,7 +7,44 @@
     <script src="index.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css">
     <style>
-       
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            background-color: #ccc;
+            border-radius: 50%;
+            /* Add a default image if necessary */
+            background-image: url('path_to_default_image.jpg');
+            background-size: cover;
+        }
+
+        .task-list {
+            margin-top: 20px;
+        }
+
+        .task {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .task input[type="text"] {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .progress-bar {
+            width: 200px;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+        }
+
+        .container {
+            width: 600px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
     </style>
 
 </head>
@@ -29,7 +66,48 @@
         </div>
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
     </div>
-
+    <div class="container">
+        <div class="header">
+            <h2>Employee Name</h2>
+            <p>Employee Email</p>
+        </div>
+        <div class="profile-pic"></div>
+        <div class="task-list">
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="task">
+                <input type="text" placeholder="Task">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
