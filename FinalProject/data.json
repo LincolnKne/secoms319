@@ -1,0 +1,44 @@
+[
+    {
+        "type": "Cold Sandwich",
+        "image": "image/ColdSandwich.webp"
+    },
+    {
+        "type": "Hot Sandwich",
+        "image": "image/HotSandwich.webp",
+        "recipes" : {
+            "Italian Beef":{
+            "catagory":"Sandwiches",
+            "Description":"Savor the bold flavors of our Italian Beef sandwich, featuring thinly sliced roast beef au jus, sautéed green bell peppers, and melted provolone cheese, all piled high on a fresh Italian roll.", 
+            "steps":{
+                "step1": "cut bread",
+                "step2": "make sandwich"
+            }
+        }
+        }
+    },
+    {
+        "type": "Panning",
+        "image": "image/panning.webp"
+    },
+    {
+        "type": "Pastries",
+        "image": "image/pastries.webp"
+    },
+    {
+        "type": "Pizza",
+        "image": "image/pizza.webp"
+    },
+    {
+        "type": "Salads",
+        "image": "image/Salads.webp"
+    },
+    {
+        "type": "Soup",
+        "image": "image/soup.webp"
+    },
+    {
+        "type": "Breakfast",
+        "image": "image/Breakfast.webp"
+    }
+]
